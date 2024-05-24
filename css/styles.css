@@ -1,15 +1,17 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;700&display=swap");
 
 /* Styles for the body */
 
-body {
-	    font-family: "Ubuntu Condensed", sans-serif;
-	color: #202030;
-	background-color: #f8f8fc;
+.radio-canada-big-unique-class {
+  font-family: "Radio Canada", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Replace 400 with the desired weight between 400 and 700 */
+  font-style: normal;
 }
+
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
@@ -54,4 +56,6 @@ body {
 }
 .language-progress {
 	background-color: #E5E3ED
+}.weird-tekst {
+color: #8020cc;
 }

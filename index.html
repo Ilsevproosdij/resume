@@ -2,7 +2,7 @@
 <html class="h-100" lang="en">
   
   <!-- An HTML document always starts with a "head", i.e. information about the page that isn't directly visible -->
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -13,9 +13,15 @@
 
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
-
-    <title>Firstname Lastname's Resumé</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <ilsevanproosdij>Firstname Lastname's Resumé</ilsevanproosdij>
+</head>
+<body>
+  <!-- The rest of your HTML content goes here -->
+</body>
+</html>
   <!-- End of the head -->
 
   <!-- Start of the body, which contains everything visible on the page -->
@@ -71,7 +77,8 @@
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
           -->
-          <section class="my-3 biography-section">
+          <section class="my-3 biography-section weird-tekst"
+				   >
             <h2>Professional Experience</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
@@ -120,7 +127,7 @@
 
           <!-- We're done with jobs, let's move on to schools -->
 
-          <section class="my-3 biography-section">
+          <section class="my-3 biography-section weird-tekst">
             <h2>Education</h2>
             <ul class="biography-list list-unstyled">
 
@@ -156,106 +163,103 @@
               </li>
             </ul>
           </section>
-
+		  
           <!-- This is the end of the "Education" section -->
 
-        </main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="path/to/your/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- Main content here -->
+      <main class="col-md-7 col-lg-8 col-xl-9">
+        <!-- Your main content goes here -->
+      </main>
 
-        <!--
-          We're done with the first column.
-          We now move on to the column with contact details, languages and other skills
-          <aside> is also a semantic element.
-        -->
-        <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
-
-          <!-- The first block will be contact details -->
-          <section class="my-3 aside-section">
-            <h2>Contact</h2>
-            <!--
-              A list of all your contact details.
-              There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
-              Be careful and only put channels through which you really want to be contacted.
-              If your phone number is your personal one, you may want to remove it!
-            -->
-            <ul class="contact-list list-unstyled">
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
-                  <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
+      <!-- Sidebar starts here -->
+      <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
+        <!-- Contact Section -->
+        <section class="my-3 aside-section">
+          <h2>Contact</h2>
+          <ul class="contact-list list-unstyled">
+            <li class="contact-item">
+              <a class="d-flex align-items-center" href="mailto:222486@buas.nl" target="_blank">
+                <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
                 222486@buas.nl
               </a>
-              </li>
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
-                </a>
-              </li>
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/Ilsevproosdij" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
-                </a>
-              </li>
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-                  <img class="contact-icon" src="images/icons/tiktok.svg" alt="Mobile Phone">
+            </li>
+            <li class="contact-item">
+              <a class="d-flex align-items-center" href="https://github.com/Ilsevproosdij" target="_blank">
+                <img class="contact-icon" src="images/icons/github.svg" alt="GitHub">
+                GitHub Profile
+              </a>
+            </li>
+            <li class="contact-item">
+              <a class="d-flex align-items-center" href="https://www.tiktok.com/@ilsevproosdij" target="_blank">
+                <img class="contact-icon" src="images/icons/tiktok.svg" alt="TikTok">
                 TikTok @ilsevproosdij
               </a>
-              </li>
-            </ul>
-          </section>
+            </li>
+          </ul>
+        </section>
 
-          <!-- End of contact details, moving on to languages -->
+        <!-- Languages Section -->
+        <section class="my-3 aside-section">
+          <h2>Languages</h2>
+          <ul class="language-list list-unstyled">
+            <li class="language-item d-flex mb-1">
+              <h5 class="language-name w-50">Dutch</h5>
+              <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-progress position-absolute h-100 w-100"></div>
+                <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
+              </div>
+            </li>
+            <li class="language-item d-flex mb-1">
+              <h5 class="language-name w-50">English</h5>
+              <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-progress position-absolute h-100 w-75"></div>
+                <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <section class="my-3 aside-section">
-            <h2>Languages</h2>
-            <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
-            <ul class="language-list list-unstyled">
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute  h-100 w-100"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
-                </div>
-              </li>
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">English</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute  h-100 w-75"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
-                </div>
-              </li>
-            </ul>
-          </section>
+        <!-- Other Skills Section -->
+        <section class="my-3 aside-section">
+          <h2>Other Skills</h2>
+          <ul class="skill-list list-unstyled">
+            <li class="skill-item">Camera operator</li>
+            <li class="skill-item">Premiere Pro</li>
+            <li class="skill-item">Driving Licence</li>
+          </ul>
+        </section>
 
-          <!-- End of contact details, moving on to other skills -->
-
-          <section class="my-3 aside-section">
-            <h2>Other Skills</h2>
-            <ul class="skill-list list-unstyled">
-              <li class="skill-item">Camera operator</li>
-              <li class="skill-item">Premiere Pro</li>
-              <li class="skill-item">Driving Licence</li>
-            </ul>
-          </section>
-
-          <!-- End of other skills, moving on to interest and hobbies -->
-
-          <section class="my-3 aside-section">
-            <h2>Interests &amp; Hobbies</h2>
-            <ul class="skill-list list-unstyled">
-              <li class="skill-item">Mountainbiking</li>
-              <li class="skill-item">Dancing</li>
-<li class="skill-item">Netflix Binge-Watcher</li>
-            </ul>
-          </section>
-
-        </aside>
-      </div>
+        <!-- Interests & Hobbies Section -->
+        <section class="my-3 aside-section">
+          <h2>Interests &amp; Hobbies</h2>
+          <ul class="skill-list list-unstyled">
+            <li class="skill-item">Mountainbiking</li>
+            <li class="skill-item">Dancing</li>
+            <li class="skill-item">Netflix Binge-Watcher</li>
+          </ul>
+        </section>
+      </aside>
     </div>
-      <p class="container text-end">
-        Created as part of the <a href="https://www.buas.nl/en/programmes/creative-business" target="_blank">Bachelor of Creative Business at Breda University of Applied Sciences.</a>
-      </p>
-
-  </body>
+  </div>
+  <p class="container text-end">
+    Created as part of the <a href="https://www.buas.nl/en/programmes/creative-business" target="_blank">Bachelor of Creative Business at Breda University of Applied Sciences.</a>
+  </p>
+</body>
+</html>
+</main>
+		</div>
+	  </div>
+	</body>
+	</head>
 </html>
